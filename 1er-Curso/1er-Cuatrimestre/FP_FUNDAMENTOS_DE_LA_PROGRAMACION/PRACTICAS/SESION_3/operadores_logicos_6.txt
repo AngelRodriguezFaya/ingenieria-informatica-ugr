@@ -1,0 +1,34 @@
+6. [Operadores lógicos] En este ejercicio no hace falta construir ningún programa. Debe crear un fichero de texto 
+(con extensión cpp o txt) explicando qué problemas observa en los siguientes condicionales:
+
+a)  char tipo_radar;
+    cin >> tipo_radar;
+
+	if (tipo_radar == 'F' && tipo_radar == 'f')
+
+/*
+	El problema es que la letra 'F' no puede ser mayúscula y msinúscula a la misma vez, por lo que ese condicional estaría mal.
+	Habría que cambiarle el operador a || para que estuviera bien.
+*/
+
+b) double velocidad;
+   cin >> velocidad;
+
+	if (velocidad > 100 && velocidad < 70)
+	cout << "\nVelocidad fuera del rango"
+
+/*
+	El problema que encuentro es que la velocidad no puede ser mayor que 100 y menor que 70 a la misma vez, por lo que el condicional 
+	estaría mal. Habría que cambiarle el operador a || para que estuviera bien.
+*/
+
+c) double velocidad;
+	cin >> velocidad;
+
+	if (velocidad > 100 || velocidad > 110)
+	cout << "Velocidad excesiva";
+
+/*
+	El problema que encuentro en este condicional es que si la velocidad es mayor de 110 se van a cumplir las dos condiciones. Luego,
+	con ese operador fallaría el 'if'.
+*/
