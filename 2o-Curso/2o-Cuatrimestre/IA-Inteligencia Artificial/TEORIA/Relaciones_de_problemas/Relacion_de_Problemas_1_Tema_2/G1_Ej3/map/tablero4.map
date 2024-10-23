@@ -1,0 +1,12 @@
+// Posicion inicial x, y (contando desde 0), mapa
+5 5
+- T T T T T T T T T
+- T - - - - - - - T
+- T - - - - - - - T
+- T - - - - - - - T
+- T - - - - - - - T
+- T - - - - - - - T
+- T - - - - - - - T
+- T - - - - - O - T
+- T - - - - - - - T
+- T T T T T T T T T
